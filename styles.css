@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007bff;
+}
+
+.table {
+    text-align: center;
+}
+
+#reload {
+    display: block;
+    margin: 20px auto;
+}
+

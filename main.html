@@ -13,6 +13,8 @@
 
   <body>
     <!-- the entire body must be written by student -->
+	<h2 class="text-center mt-4">Promise Execution Times</h2>
+	  
     <table class="table table-striped table-hover table-bordered">
       <thead>
         <tr>
@@ -20,8 +22,15 @@
           <th>Time taken (s)</th>
         </tr>
       </thead>
-      <tbody id="output"></tbody>
+      <tbody id="output">
+		<tr>
+			<td colspan="2" class="text-center">Loading...</td>
+	    </tr>
+	  </tbody>
+		
     </table>
+	
+	<button id="reload" class="btn btn-primary">Run Again</button>
 
     <script type="text/javascript" src="./script.js"></script>
     <script
